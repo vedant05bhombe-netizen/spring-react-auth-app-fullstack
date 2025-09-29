@@ -3,7 +3,8 @@
 A *fullstack login/signup application* built with *Spring Boot* (backend) and *React* (frontend) using *Spring Security* and *JWT authentication*.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-## 📁 Project Structure ```bash spring-react-auth-app/ ├── backend/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/com/yourapp/ │ │ │ │ ├── controller/ │ │ │ │ ├── model/ │ │ │ │ ├── repository/ │ │ │ │ ├── security/ │ │ │ │ └── service/ │ │ │ └── resources/ │ │ │ ├── application.properties │ │ │ └── static/ │ │ └── test/ │ └── pom.xml │ ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ ├── pages/ │ │ ├── services/ │ │ └── App.js │ ├── package.json │ └── vite.config.js │ └── README.md ``` </pre>
+## 📁 Project Structure
+```bash spring-react-auth-app/ ├── backend/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/com/yourapp/ │ │ │ │ ├── controller/ │ │ │ │ ├── model/ │ │ │ │ ├── repository/ │ │ │ │ ├── security/ │ │ │ │ └── service/ │ │ │ └── resources/ │ │ │ ├── application.properties │ │ │ └── static/ │ │ └── test/ │ └── pom.xml │ ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ ├── pages/ │ │ ├── services/ │ │ └── App.js │ ├── package.json │ └── vite.config.js │ └── README.md ``` </pre>
 
 
 ## Features
