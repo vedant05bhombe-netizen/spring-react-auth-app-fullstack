@@ -5,8 +5,9 @@ A *fullstack login/signup application* built with *Spring Boot* (backend) and *R
 ## Project Structure
 
 spring-react-auth-app/
- -├─ backend/       ← Spring Boot backend 
- -├─ frontend/      ← React frontend └─ README.md
+ --├─ backend/       ← Spring Boot backend 
+ 
+ --├─ frontend/      ← React frontend └─ README.md
 
 ## Features
 
@@ -55,7 +56,7 @@ mvn spring-boot:run
 ## Contact
 
 Created by *Vedant Bhombe*.  
-- GitHub: [your-github-username](https://github.com/your-github-username)  
+- GitHub: [vedant05bhombe-netizen](https://github.com/vedant05bhombe-netizen)  
 - Email: vedant05bhomber@gmail.com
 
 ---
