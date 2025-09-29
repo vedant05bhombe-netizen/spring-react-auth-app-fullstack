@@ -1,0 +1,167 @@
+.mini {
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    
+}
+
+body {
+    background-color: black;
+    margin: 0; 
+}
+
+.container {
+    height: 40vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+    margin: 0 auto;
+}
+
+.Main {
+    height: 20vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    background-color: black;
+    margin: 0 auto; /* center on mobile */
+}
+
+input {
+    height: 3.5vh;
+    width: 27vh;
+    border-radius: 3px;
+    background-color: rgb(18,18,18);
+}
+
+.but2 {
+    height: 3.7vh;
+    width: 29.6vh;
+    background-color: rgb(171, 171, 212);
+    border-radius: 7px;
+    border: 0.5px solid #ddd; 
+    border-radius: 3px;
+    padding: 6px 10px;
+    outline: none;
+}
+
+.input2 {
+    padding-top: 7px;
+}
+
+.divbut2 {
+    padding-top: 7px;
+}
+
+input::placeholder {
+    color: #888;       
+    font-size: 12px;   
+    font-style: italic; 
+}
+
+img {
+    height: 20vh;
+    width: auto;
+    padding-left: 30px;
+    color: aqua;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.divider:not(:empty)::before {
+    margin-right: 10px;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 10px;
+}
+
+.signup {
+    color: azure;
+    padding-top: 30px;
+}
+
+.but3 {
+   
+}
+
+.parent {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.image2 {
+    display: none; 
+    height: 40vh;
+    width: 50vh;
+    padding-top: 25vh;
+    padding-left: 10vh;
+    padding-right: 40vh;
+}
+
+@media (min-width: 1024px) {
+    .image2 {
+        display: block;
+    }
+}
+.image2{
+  color: blue;
+}
+input {
+  border: 0.5px solid #ddd; /* or “thin” keyword */
+  border-radius: 3px;
+  padding: 6px 10px;
+  outline: none;
+}
+p{
+    color: #ddd;
+}
+.para{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    padding-left: 12vh;
+     border: 0.5px solid #ddd; /* or “thin” keyword */
+  border-radius: 3px;
+  padding: 6px 10px;
+  outline: none; 
+  margin-top: 15px;
+}
+.but4{
+    padding-left: 12vh;
+     background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}
+input[type="text"] {
+  color: rgb(255, 255, 255); 
+}
+input[type="password"] {
+  color: rgb(255, 255, 255); 
+}
+.but2:disabled {
+  background-color: #cccccc; 
+  color: #666666;             
+  cursor: not-allowed;        
+}
