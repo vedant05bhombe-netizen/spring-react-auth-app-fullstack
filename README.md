@@ -6,8 +6,8 @@ A *fullstack login/signup application* built with *Spring Boot* (backend) and *R
 
 ##spring-react-auth-app/
 
--├─ backend/       ← Spring Boot backend 
--├─ frontend/      ← React frontend └─ README.md
+--├─ backend/       ← Spring Boot backend 
+--├─ frontend/      ← React frontend └─ README.md
 
 ## Features
 
