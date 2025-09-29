@@ -5,7 +5,7 @@ A *fullstack login/signup application* built with *Spring Boot* (backend) and *R
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project Structure
 
-##spring-react-auth-app
+-spring-react-auth-app
 
 -├─ backend/       ← Spring Boot backend 
 -├─ frontend/      ← React frontend └─ README.md
