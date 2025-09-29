@@ -2,6 +2,7 @@
 
 A *fullstack login/signup application* built with *Spring Boot* (backend) and *React* (frontend) using *Spring Security* and *JWT authentication*.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project Structure
 
 ##spring-react-auth-app
